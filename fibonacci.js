@@ -16,6 +16,12 @@ for (let i = 2; i <= 10; i++) {
 }
 console.log(fibo);
 
+
+
+
+
+
+
 const fibo2 = [0, 1];
 
 for (let i = 2; i <= 15; i++) {
