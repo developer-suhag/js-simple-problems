@@ -23,7 +23,7 @@ const celiOutput = Math.ceil(celiNumber);
 let floorNumber = 9.53;
 floorNumber = 14.454;
 floorNumber = 13.55;
-floorNumber =  13.99;
+floorNumber = 13.99;
 const floorOutput = Math.floor(floorNumber);
 
 // console.log(floorOutput);
@@ -52,9 +52,16 @@ const rounded = Math.floor(randomOutput);
 
 // console.log(rounded);
 
-for (let i = 0; i <=20 ; i++) {
+for (let i = 0; i <= 20; i++) {
     const luduNumber = 6;
     const ludu = Math.random() * luduNumber;
     const luduOutput = Math.round(ludu)
     console.log(luduOutput);
 }
+
+
+
+
+const lottry = Math.random() * 100;
+const lottryRounded = Math.round(lottry);
+console.log(lottryRounded);
